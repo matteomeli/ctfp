@@ -1,0 +1,18 @@
+[package]
+name = "cftp"
+version = "0.1.0"
+authors = ["Matteo Meli <matteo.meli@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "*"
+
+[lib]
+name = "ctfp"
+path = "src/lib.rs"
+
+[[bin]]
+name = "chapter2"
+path = "src/bin/chapter2.rs"
